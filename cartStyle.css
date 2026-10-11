@@ -172,3 +172,38 @@ header {
 .cartItemsContainer {
     border-bottom: 2px dashed #453a43; 
 }
+
+.coupon {
+    position: relative;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 17px;
+    padding: 0 20px;
+    border-radius: 5px;
+    background: #32232f;
+    color: #e8dccd;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.coupon::before,
+.coupon::after {
+    position: absolute;
+    top: 50%;
+    width: 8px;
+    height: 12px;
+    border-radius: 50%;
+    background: #20141f;
+    content: "";
+    transform: translateY(-50%);
+}
+
+.coupon::before {
+    left: -4px;
+}
+
+.coupon::after {
+    right: -4px;
+}

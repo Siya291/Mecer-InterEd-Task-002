@@ -20,3 +20,24 @@ body {
     border-radius: 26px;
     background: #20141f;
 }
+
+.back-button {
+    position: relative;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.back-button img {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;    
+}
+
+.page-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+    font-weight: bold;
+}

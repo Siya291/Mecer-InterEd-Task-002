@@ -52,30 +52,29 @@ header {
 .cart-item1, .cart-item2, .cart-item3 {
     display: flex;
     min-width: 0;
-    height: 65px;
+    height: 85px;
     align-items: center;
     gap: 8px;
     margin-bottom: 10px;
-    padding: 7px 8px;
+    padding: 10px 8px;
     border-radius: 9px;
     background: #322832;
 }
 
 .cart-item1 > img, .cart-item2 > img, .cart-item3 > img {
-    width: 48px;
-    height: 48px;
-    flex: 0 0 48px;
+    width: 65px;
+    height: 65px;
+    flex: 0 0 65px;
     border-radius: 9px;
     object-fit: cover;
 }
 
 .item-details {
     display: flex;
-    min-width: 0;
-    flex: 1;
     flex-direction: column;
-    gap: 2px;
-    white-space: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    flex: 1;  
 }
 
 .item-details br {
@@ -96,6 +95,10 @@ header {
     margin-top: 1px;
     color: #fff7ed;
     font-size: 11px;
+}
+
+.item-name, .item-description, .item-price {
+    line-height: 1.2;
 }
 
 .add-to-cart {
@@ -167,7 +170,7 @@ header {
     display: block;
     width: 15px;
     height: 15px;
-    margin-left: 35px;
+    margin-left: 10px;
 }
 .cartItemsContainer {
     border-bottom: 2px dashed #453a43; 
@@ -206,4 +209,63 @@ header {
 
 .coupon::after {
     right: -4px;
+}
+
+.arrow {
+    color: #e8dccd;
+    font-size: 12px;
+}
+
+.total-message {
+    margin-bottom: 8px;
+    color: #f0e7e1;
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.total-message > span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-message br {
+    display: none;
+}
+
+.grand-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    padding-top: 12px;
+    border-top: 2px dashed #453a43; 
+    color: #fff;
+    font-size: 15px;
+}
+
+.grand-total span:last-child {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pay-now {
+    width: 100%;
+}
+
+#pay-now {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 7px;
+    background: #f1e5c7;
+    color: #4b3035;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#pay-now:hover {
+    background: #e8d8b2;
 }

@@ -1,0 +1,217 @@
+.body {
+    background-color: black;
+}
+*{
+font-family: 'Rosarivo';
+}
+.PageHeader {
+    color: #EFE3C8;
+    position: absolute;
+    width: 200px;
+    left: 100%;
+    
+    font-size: 25px;
+transform: translateX(70%);
+}
+.Back{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+top: 27px;
+
+}
+.Top_page{
+    position: absolute;
+    top: -1rem;
+
+}
+
+.Text{
+    color: #EFE3C8;
+    position: relative;
+    top: 50px;
+    font-family: 'Rosarivo';
+font-size: 20px;
+
+}
+.googlepay{
+  background-color:rgb(41, 40, 40); 
+  position: relative;
+  top: 50px;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+
+ 
+ 
+}
+.glogo{
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    top: 155px;
+    border-radius: 20px;
+    left: 20px;
+}
+.GoogleText{
+    color: white;
+    position: relative;
+    left: 55px;
+    top: 26px;
+    font-size: 20px;
+
+}
+.empty1{
+    background-color:rgb(41, 40, 40); 
+  position: relative;
+  margin-top:10px;
+  top: 50px;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+}
+.empty3{
+    background-color:rgb(41, 40, 40); 
+  position: relative;
+    margin-top:10px;
+  top: 30px;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+}
+.empty4{
+    background-color:rgb(41, 40, 40); 
+  position: absolute;
+    margin-top:10px;
+  top: 410px;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+}
+.bottom{
+    position: fixed;
+    top: 730px;
+   
+}
+.btnConfirm{
+    position: fixed;
+    left: 130px;
+    top: 740px;
+    width: 300px;
+    height: 60px;
+    color: black;
+    background-color: #EFE3C8;
+    border-radius: 10px;
+    font-size: 20px;
+    
+
+}
+.workadd{
+      background-color:rgb(41, 40, 40); 
+  position: absolute;
+  top: 540px;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+}
+.work{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 35px;
+}
+ .reci2{
+    color: #d3d3d3;
+    position: absolute;
+    left: 60px;
+    top: -30px;
+    font-size: 25px;
+ }
+.reci1{
+    color: #d3d3d3;
+    position: absolute;
+    left: 60px;
+    top: -20px;
+    font-size: 25px;
+}
+.h_add{
+    color: #d3d3d3;
+display: flex;
+position: absolute;
+left: 65px;
+top: 30px;
+}
+.add {
+color: #d3d3d3;
+display: flex;
+position: absolute;
+left: 65px;
+top: 30px;
+}
+.homeadd{
+     background-color:rgb(41, 40, 40); 
+  position: absolute;
+  top: 100px;
+  height: 80px;
+  width: 100%;
+  border-radius: 20px;
+}
+.home{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.conmess{
+    background-color:#201520;  
+    position: absolute;
+    display: flex;
+    top: -350px;
+    width: 90%;
+    height: 430%;
+    left: 20px;
+   
+
+}
+.approved{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 100px;
+    height: 100px;
+}
+
+.conmess2{
+    position: absolute;
+    top: 200px;
+    left: 9px;
+    color: #EDD2D2;
+    font-size: 20px;
+    text-align: center;
+    
+    
+
+}
+
+.btnokay{
+    position: absolute;
+    top: 280px;
+    left: 150px;
+    width: 120px;
+    height: 50px;
+    background: rgba(56, 151, 46, 0.07);
+    border-radius: 10px;
+    border: 3px solid #38972E;
+    color: #38972E;
+}
+.conmess1{
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    margin-right: 20px;
+    color: #EDD2D2;
+    font-size: 40px;
+  
+}
+
+

@@ -2,20 +2,18 @@
   box-sizing: border-box;
 }
  .container {
-  width: 430px;
-  height: 932px;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 20px 0;
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  padding: 2.35vh 5.3vw 0;
   background-color: #201520;
-  border-radius: 44px;
   overflow: hidden;
 }
 
 
 body { 
     margin: 0;
-    min-height: 100vh;
+    min-height: 65vh;
     background-color: #201520;
     display: flex;
     justify-content: center;
@@ -24,8 +22,8 @@ body {
 }
 
 .cups img {
-  width: 100%;
-  height: 100%;
+  width: 90vw;
+  height: 50vh;
   display: block;
   border-radius: 32px;
   object-fit: cover;
@@ -33,10 +31,10 @@ body {
 
 .back-btn {
   position: absolute;
-  top: 45px;
-  left: 36px;
-  width: 48px;
-  height: 48px;
+  top: 5vh;
+  left: 9vw;
+  width: 12vw;
+  height: 7vh;
   border: none;
   border-radius: 50%;
   background-color:#201520;
@@ -54,8 +52,8 @@ body {
 }
 
 .back-btn img{
-    width: 24px;
-    height: 24px;
+    width: 6vw;
+    height: 6vh;
     object-fit: contain;
 }
 
@@ -67,7 +65,7 @@ body {
 }
 
 .menu{
-    margin-top: 20px;
+    margin-top: 2vh;
     
 }
 .coffeeLike{
@@ -83,16 +81,16 @@ body {
 }
 
 #heart {
-  width: 32px;
-  height: 28px;
+  width: 7vw;
+  height: 3vh;
   display: block;
 }
 
 .subheadingContainer{
     display: flex;
-    margin: 13px 0 14px;
+    margin: 1.5vh 0 1.6vh;
     align-items: center;
-    gap: 18px;
+    gap: 6vw;
     
 }
 
@@ -106,22 +104,22 @@ body {
 .rating {
   font-size: 14px;
   line-height: 1;
-  margin-top: -3px;
+  margin-top: -0.35vh;
   
 }
 
 #star {
-  width: 14px;
-  height: 14px;
+  width: 3vw;
+  height: 2.1vh;
   display: block;
-  margin-bottom: -2px;
+  margin-bottom: -0.2vh;
   
 }
 
 .iconStar{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 1vw;
     
     
 }
@@ -137,32 +135,32 @@ body {
 }
 
 .milk{
-    margin-top: 36px;
+    margin-top: 2.8vh;
     
 }
 
 .milk-name {
-  margin: 0 0 14px;
+  margin: 0 0 1.8vh;
   font-size: 17px;
 
 }
 
 .milk-options {
   display: flex;
-  gap: 10px;
+  gap: 2vw;
   
 }
 
 .milk-options button {
     flex: 1 1 auto;
-  height: 40px;
-  padding: 0 10px;
+  height: 4.9vh;
+  padding: 0 2.67vw;
   font-family: "Rosarivo",serif;
-  font-size: 15px;
+  font-size: 3.5vw;
   color: #efe3c8;
   background-color: transparent;
-  border: 1px solid #efefef;
-  border-radius: 12px;
+  border: 0.4vw solid #efe3c8;
+  border-radius: 2.5vw;
   white-space: nowrap;
   cursor: pointer;
 }
@@ -180,15 +178,14 @@ body {
 .buy {
   display: flex;
   align-items: center;
-  gap: 32px;
-  margin-top: 32px;
-  padding-bottom: 36px;
+  gap: 8vw;
+  margin-top: 2.1vh;
 }
 
 .price {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 0.4vh;
   line-height: 1;
   white-space: nowrap;
   font-family: "Raleway", sans-serif;
@@ -207,15 +204,15 @@ body {
 
 .buy-button {
   flex: 1;
-  height: 52px;
+  height: 7vh;
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 3.5vw;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2vw;
   color: #4a2b29;
   background-color: #efe3c8;
   border: none;
-  border-radius: 12px;
+  border-radius: 3vw;
   cursor: pointer;
 }
 
